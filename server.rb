@@ -3,15 +3,19 @@ require 'sinatra'
 
 # simply accept calls
 get '/?' do
+  "GET"
 end
 
 post '/?' do
+  "POST"
 end
 
 put '/?' do
+  "PUT"
 end
 
 delete '/?' do
+  "DELETE"
 end
 
 # return provided content type
